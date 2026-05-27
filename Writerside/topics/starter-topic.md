@@ -23,14 +23,6 @@
 - mini-program
     - uni-app vue typescript scss
 
-## 友情链接
-
-- 财务金融
-- 行政管理
-- 技术选型迭代与测试&落地
-- 公司
-- Github 主页
-
 <seealso>
     <category ref="wrs">
         <a href="https://youupro.xyz/">Finance</a>

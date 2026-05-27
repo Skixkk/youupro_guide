@@ -1,6 +1,6 @@
 # Technology Stack Selection
 
-## Stack
+## Vue or React
 
 ### Vue
 
@@ -16,7 +16,7 @@
 
 ## 根据业务选择技术栈
 
-> 常用技术栈
+> 常用 Vue 技术栈
 
 ### website-网站
 
@@ -24,11 +24,7 @@
     - Vue **vite** typescript scss (CSR)
         - 创建命令: bash `bun create vite`
         - **来源 [vite.dev](https://vite.dev/guide/) 官网**
-- SSG
-    - Vue **Nuxt** typescript scss (SSG SSR)
-    - 创建命令: bash `bun create vite` or `bun create nuxt@latest <project-name>`
-    - **来源 [nuxt.com](https://nuxt.com/docs/4.x/getting-started/installation) 官网**
-- SSR
+- SSG & SSR
     - Vue **Nuxt** typescript scss (SSG SSR)
     - 创建命令: bash `bun create vite` or `bun create nuxt@latest <project-name>`
     - **来源 [nuxt.com](https://nuxt.com/docs/4.x/getting-started/installation) 官网**
@@ -61,6 +57,8 @@
 ### Desktop Software -react
 
 - react **Electron** typescript scss Tailwind CSS
+    - 创建命令: bash `npx create-electron-app@latest my-new-app --template=vite-typescript`
+    - **来源 [electronforge.io](https://www.electronforge.io/templates/vite-+-typescript) 官网**
 
 <seealso>吧                                                                                       
     <category ref="wrs">
