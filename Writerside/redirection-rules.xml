@@ -6,4 +6,8 @@
         <accepts>page.html</accepts>
     </rule>
     -->
+    <rule id="e0c24bc">
+        <description>Created after removal of "Frontend Selection" from Guide</description>
+        <accepts>Frontend-Selection.html</accepts>
+    </rule>
 </rules>
