@@ -70,27 +70,69 @@
 - [wise](https://wise.com/)
 - [x.ai](https://x.ai/)
 - [zapier](https://zapier.com/)
-
-## dev project
-
 - [vite](https://vite.dev/)
 - [nuxt](https://nuxt.com/)
 - [nextjs](https://nextjs.org/)
-
-### Chinese market
-
-> 这些项目有一个特点就是卡（图片多，使用SSR部署）
-
-理由：
-
-```text
-CSR 只有 app tag
-SSG 禁用 Javascript 数据缺失/页面缺失
-SSR 禁用后 仍然有数据，且 Ctrl+U body 中有数据
-```
-
 - [nanfu](https://www.nanfu.global/): 南孚
 - [uunn](https://uunn.cn/): 为南孚提供设计方案的公司
 - [mmele](http://www.mmele.com/)
 - [中顺洁柔](https://www.zsjr.com/)
 - [金龙汽车-en](https://www.king-long.com/)
+
+## 技术栈
+
+### Vue
+
+- Vue **vite** typescript scss (CSR)
+- Vue **Electron** typescript scss (CSR Electron)
+- Vue **Nuxt** typescript scss (SSG SSR)
+- **uni-app** vue typescript scss
+
+#### 根据业务选择技术栈
+
+> 常用 Vue 技术栈
+
+##### website-网站
+
+- CSR
+    - Vue **vite** typescript scss (CSR)
+        - 创建命令: bash `bun create vite`
+        - **来源 [vite.dev](https://vite.dev/guide/) 官网**
+- SSG & SSR
+    - Vue **Nuxt** typescript scss (SSG SSR)
+    - 创建命令: bash `bun create vite` or `bun create nuxt@latest <project-name>`
+    - **来源 [nuxt.com](https://nuxt.com/docs/4.x/getting-started/installation) 官网**
+
+##### Desktop Software-桌面应用
+
+- Vue **Electron** typescript scss (CSR Electron)
+    - 创建命令: bash `npx create-electron-app@latest my-new-app --template=vite-typescript`
+    - **来源 [electronforge.io](https://www.electronforge.io/templates/vite-+-typescript) 官网**
+
+##### mini-program : 小程序
+
+- uni-app vue typescript scss
+    - 创建命令: bash `npx degit dcloudio/uni-preset-vue#vite-ts <project_name>`
+    - **来源 [uniapp](https://uniapp.dcloud.net.cn/quickstart-cli.html) 官网**
+
+### React
+
+- react **vite** typescript scss (CSR)
+- react **Next** typescript scss Tailwind CSS (SSR)
+
+#### Website - react
+
+- CSR
+    - react **vite** typescript scss (CSR)
+        - 创建命令: bash `bun create vite`
+            - **来源 [vite.dev](https://vite.dev/guide/) 官网**
+- SSR -react
+    - react **Next** typescript scss Tailwind CSS (SSR)
+        - 创建命令: bash `bun add next@latest react@latest react-dom@latest`
+            - **来源 [nextjs.org](https://nextjs.org/docs/app/getting-started/installation) 官网**
+
+#### Desktop Software -react
+
+- react **Electron** typescript scss Tailwind CSS
+    - 创建命令: bash `npx create-electron-app@latest my-new-app --template=vite-typescript`
+    - **来源 [electronforge.io](https://www.electronforge.io/templates/vite-+-typescript) 官网**
