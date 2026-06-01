@@ -94,6 +94,7 @@ SSR 禁用后 仍然有数据，且 Ctrl+U body 中有数据
 - [mmele](http://www.mmele.com/)
 - [中顺洁柔](https://www.zsjr.com/)
 - [金龙汽车-en](https://www.king-long.com/)
+- [中企集团](https://www.ce-group.cn/) - 设计的木硬 呆板
 
 <seealso>
     <category ref="wrs">
