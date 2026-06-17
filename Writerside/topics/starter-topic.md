@@ -2,6 +2,10 @@
 
 > 此文档主要涉及技术栈
 
+## Star History
+
+ [![Star History Chart](https://api.star-history.com/chart?repos=Skixkk/youpro_notes%2CSkixkk/youupro_guide&type=date&legend=top-left)](https://www.star-history.com/?repos=Skixkk%2Fyoupro_notes%2CSkixkk%2Fyouupro_guide&type=date&logscale=&legend=top-left)
+
 ## 技术栈
 
 - Vue vite typescript scss (CSR-写管理系统-内网使用)
