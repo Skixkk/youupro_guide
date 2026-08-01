@@ -2,6 +2,8 @@
 
 ## Common
 
+- [技术栈选择](https://youupro.xyz/guide/test2.html)
+
 ### create
 
 #### 必要一
