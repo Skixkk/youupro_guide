@@ -10,4 +10,24 @@
         <description>Created after removal of "Frontend Selection" from Guide</description>
         <accepts>Frontend-Selection.html</accepts>
     </rule>
+    <rule id="5644495f">
+        <description>Created after removal of "Introduction" from Guide</description>
+        <accepts>Introduction.html</accepts>
+    </rule>
+    <rule id="471f7cd0">
+        <description>Created after removal of "Sales" from Guide</description>
+        <accepts>Sales.html</accepts>
+    </rule>
+    <rule id="3fe2d952">
+        <description>Created after removal of "软件服务报价单" from Guide</description>
+        <accepts>软件服务报价单.html</accepts>
+    </rule>
+    <rule id="2718a81f">
+        <description>Created after removal of "软件服务报价单" from Guide</description>
+        <accepts>通用报价单.html</accepts>
+    </rule>
+    <rule id="64e6e3d2">
+        <description>Created after removal of "Claude Code AI助手配置服务报价单" from Guide</description>
+        <accepts>Claude-Code-AI-助手配置服务报价单.html</accepts>
+    </rule>
 </rules>
