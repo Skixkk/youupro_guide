@@ -7,15 +7,11 @@
                  start-page="starter-topic.md">
 
     <toc-element topic="starter-topic.md"/>
-    <toc-element topic="Introduction.md"/>
     <toc-element topic="Technology-Stack-Selection.md"/>
-    <toc-element topic="Awesome-Products.md"/>
-    <toc-element topic="high-school-project.md"/>
     <toc-element topic="Prompt.md"/>
+    <toc-element topic="Github-LGTM.md"/>
+    <toc-element topic="Awesome-Products.md"/>
     <toc-element topic="UI-design.md"/>
-    <toc-element topic="Sales.md"/>
+    <toc-element topic="high-school-project.md"/>
     <toc-element topic="Quotation.md"/>
-    <toc-element topic="软件服务报价单.md"/>
-    <toc-element topic="Claude-Code-AI-助手配置服务报价单.md"/>
-    <toc-element topic="通用报价单.md"/>
 </instance-profile>
