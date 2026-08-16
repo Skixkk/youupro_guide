@@ -24,8 +24,13 @@
 node -v
 npm -v
 
+# 查看 有没有bun
+npm list -g
+
+# 安装 bun
 npm install -g bun
 
+# 选择 `minimal – Minimal setup for Nuxt 4 (recommended)`
 bun create nuxt@latest Skixkk.github.io
 
 bun add -D vitepress@next
