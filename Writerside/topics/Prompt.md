@@ -40,6 +40,21 @@
 
 ```
 
+#### 分支命名方案（主干分支模式 Trunk‑Based Development）
+
+```Text
+使用 （主干分支模式 Trunk‑Based Development）
+
+主干：`main`（唯一长期存活主干分支，禁止直接 push，必须走 PR）
+所有开发都从 `main` 切短期功能分支，开发完合并回 main，用完删除
+分支命名规范
+
+格式：
+`type/issueId‑short‑kebab‑case‑description`
+
+使用主干分支，该 git commit 的新创建的分支名字为什么
+```
+
 #### 生成 Markdown 格式 PR 评审评论
 
 > GitHub PR review comment
