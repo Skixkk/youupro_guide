@@ -9,8 +9,7 @@
 #### 必要一
 
 ```text
-1.现在基于我的代码给出完整代码，只允许修改相关代码，不相干的代码，即使是注释也不能修改。代码中禁用 emoji ，
-必要的图片需求使用 `src\static\images` 中的png图片
+1.现在基于我的代码给出完整代码，只允许修改相关代码，不相干的代码，即使是注释也不能修改。
 针对回复：给出代码即可，如有必要解释放在代码注释中
 
 2.生成修改后的遵循Angular 提交规范的英文版 Git Commit Comments (English)：
@@ -39,6 +38,40 @@
 <footer>（关联Issue、关闭Bug等，如 "Fixes #123"）
 
 ```
+
+#### 分支命名方案（主干分支模式 Trunk‑Based Development）
+
+```Text
+使用 （主干分支模式 Trunk‑Based Development）
+
+主干：`main`（唯一长期存活主干分支，禁止直接 push，必须走 PR）
+所有开发都从 `main` 切短期功能分支，开发完合并回 main，用完删除
+分支命名规范
+
+格式：
+`type/issueId‑short‑kebab‑case‑description`
+
+使用主干分支，该 git commit 的新创建的分支名字为什么
+```
+
+#### 生成 Markdown 格式 PR 评审评论
+
+> GitHub PR review comment
+
+```Text
+以代码的形式返回，Markdown 格式 PR 评审评论，符合 Pull request comment 规范
+
+## PR Title:
+
+## PR Description:
+
+## Leave a comment
+
+```
+
+#### leave a commet
+
+- [Github 常见缩写黑话](Github-LGTM.md)
 
 ### debug
 
