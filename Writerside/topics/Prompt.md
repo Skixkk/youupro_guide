@@ -39,6 +39,13 @@
 
 ```
 
+### pdf
+
+```text
+PDF 书签（hyperref，PDF 侧边书签导航）
+pdfpagemode=UseOutlines：PDF 打开自动展开侧边书签面板
+```
+
 #### 分支命名方案（主干分支模式 Trunk‑Based Development）
 
 ```Text
